@@ -31,6 +31,7 @@ Although this repository is nothing but nothing, the owner made it:
 
 ### 1.1 Online Input Method for Chinese Wubi (JS XML) (Mobile)
 It's a shape-based IME with a standard ASCII keyboard.
+
 For more info, see "https://en.wikipedia.org/wiki/Chinese_input_methods_for_computers".
 
 ## 2 Accomplishment
