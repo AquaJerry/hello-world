@@ -3,23 +3,34 @@ For naive thoughts.
 
 ## 0 About
 
-### 0.0 Acknowlegdment
+### 0.0 Acknowledgments
+Names of all contributors and those who inspired the owner will be listed here.
 
-### 0.1 About Owner
-  The username of owner is AquaJerry.
+Weui, https://github.com/weui;
 
-  Born in 20c 90s, he had never been exposed to the git until 2016 when he was a student from College of Humanities, Guangzhou University(in P.R.China) who happened to found how amazing GNU/Linux is in a school project. 
-  
-  Then interested in open-source, GNU/Linux and C programming Language, AquaJerry, wanted to make an appeal to schoolmates to go away from Microsoft MFC games which he thought a group of endless devils.
-  
-### 0.2 About Repository
-  The name of this repository is hello-world.
-  
-  Although it has no practical usage at all, the owner wants a well-organized stock to hold some templates for further projects.
-  
-## 1 Plan
+### 0.1 About The Owner
+The username of owner is AquaJerry.
 
-### 1.0 A test project
-  helloworld.c
+Born in 20c 90s, he had never been exposed to the git until 2016 when he was a student from College of Humanities, Guangzhou University(in P.R.China) who happened to found how amazing GNU/Linux is in a school project. 
+
+Then interested in open-source, GNU/Linux and C programming Language, AquaJerry, wanted to make an appeal to schoolmates to go away from Microsoft MFC games which he thought a group of endless devils.
+
+### 0.2 About This Repository
+The name of this repository is hello-world.
+
+Although this repository is nothing but nothing, the owner made it:
+  (0) a well-organized stock to hold some templates, such as MIT license, for further projects.
+  (1) a billboard for all owner's projects and repositories.
+  (2) a guest-book on which you can write some issues and stuff to the owner and maybe your name will appear in acknwledgments.
+
+## 1 Plan 
+
+### 1.0 Personal Page (HTML5/CSS3 JS) (Mobile)
+See "https://github.com/aquajerry/aquajerry.github.io".
+
+### 1.1 Online Input Method for Chinese Wubi (JS XML) (Mobile)
+It's a shape-based IME with a standard ASCII keyboard.
+For more info, see "https://en.wikipedia.org/wiki/Chinese_input_methods_for_computers".
 
 ## 2 Accomplishment
+Coming soon :)
