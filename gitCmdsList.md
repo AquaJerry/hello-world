@@ -161,12 +161,14 @@ and you might get:
 	          @~
 	          HEAD^1     // a~ == a^
 	      */
-##### more earlier
+##### another branch of latest commit
+We will introduce 'branch' later.
+
 	    /********************
 	      2nd parent of HEAD
 	     ********************/
 	    git show HEAD^2  /* HEAD^2 == @^2 */
-##### much more earlier
+##### much earlier
 	    /*********************
 	      grandparent of HEAD
 	     *********************/
@@ -180,7 +182,7 @@ and you might get:
 
 	    // if 2nd parent of HEAD is child of grandparent of HEAD
 	    git show HEAD^2^ /* HEAD^2^ == HEAD~2 */
-##### and earlier
+##### and earlier :)
 	    /*******************************
 	      parent of grandparent of HEAD
 	     *******************************/
