@@ -1,38 +1,38 @@
-hello-world
-====
-For naive thoughts.
+# hello-world
+Do one thing, do it well.
 
 ## 0 About
 
 ### 0.0 Acknowledgments
-Names of all contributors and those who inspired the owner will be listed here.
-
 [Weui](https://github.com/weui);
 
-### 0.1 About The Owner
-The username of owner is AquaJerry.
+[Rime](https://github.com/rime/librime);
 
-Born in 20c 90s, he had never been exposed to the git until 2016 when he was a student from College of Humanities, Guangzhou University(in P.R.China) who happened to found how amazing GNU/Linux is in a school project. 
+### 0.1 About Me
+I'm a student from College of Humanities, Guangzhou University(in P.R.China). 
 
-Then interested in `open-source` and `GNU/Linux`, AquaJerry, wanted to make an appeal to schoolmates to go away from Microsoft&reg; MFC games which he thought a group of endless devils.
+In 2016 I met `GitHub`&reg; and had a lot of fun, esp. interested in `open-source` and `GNU/Linux`. 
 
 ### 0.2 About This Repository
-The name of this repository is hello-world.
-
-Although this repository is nothing but nothing, the owner made it:
-* a well-organized stock to hold some templates, such as MIT license, for further projects.
-* a billboard for all owner's projects and repositories.
-* a guest-book on which you can write some issues and stuff to the owner and maybe your name will appear in acknwledgments.
+- a whiteboard for all my projects and repositories.
+- a guest-book on which you can write some issues or stuff and then maybe your name will appear in acknwledgments.
 
 ## 1 Plan 
 
 ### 1.0 Personal Page (HTML5/CSS3 JS) (Mobile)
 [Git address](https://github.com/aquajerry/aquajerry.github.io).
 
-### 1.1 Online Input Method for Chinese Wubi (JS XML) (Mobile)
-It's a shape-based IME with a standard ASCII keyboard.
+It mainly imitate the skin of WeChat, __Weui__.
+
+### 1.1 Online Input Method for Chinese Wubi (JS JSON) (Mobile)
+It's a shape-based IME with a standard ASCII keyboard. I've been meaning to find something useful from __Rime__.
 
 For more info, see "https://en.wikipedia.org/wiki/Chinese_input_methods_for_computers".
+
+### 1.2 A List of Git Commands for Newbies (Markdown)
+[The List.](https://github.com/AquaJerry/hello-world/blob/master/gitCmdsList.md)
+
+Something like 'git add "file name"' and 'git commit -m "message"'. Will that remind you of your first time when using git?
 
 ## 2 Accomplishment
 Coming soon :)
