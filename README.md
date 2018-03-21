@@ -1,12 +1,6 @@
 # hello-world
 > _Do one thing, and do it well._
 
-## Acknowledgments
-[Weui](https://github.com/weui)  
-[Rime](https://github.com/rime/librime)  
-[Baidu Map API for WeChat Mini Program](https://github.com/baidumapapi/wxapp-jsapi)  
-[Amap API for WeChat MP](https://github.com/amap-demo/wx-regeo-poiaround-weather)
-
 ## About
 
 ### Me
@@ -15,7 +9,7 @@ In 2016 I met `GitHub`&reg; and had a lot of fun.
 
 ### This Repository
 - a whiteboard for all my projects and repositories.
-- a guest-book on which you can write some issues or stuff and then maybe your name will appear in acknwledgments.
+- a guest-book on which you can write some issues or stuff.
 
 ## Boring stuff 
 
@@ -23,6 +17,3 @@ In 2016 I met `GitHub`&reg; and had a lot of fun.
 [The list.](https://github.com/AquaJerry/hello-world/blob/master/gitCmdsList.md)  
 Something like 'git add "file name"' and 'git commit -m "message"'. Will that remind you of your first time when using git?
 
-### Weather (WeChat Mini Program) (Mobile)
-[The git.](https://github.com/AquaJerry/weather)  
-Rain, sunshine, or winds in your city?  
