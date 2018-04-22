@@ -1,4 +1,4 @@
-# intro
+# bit-harris
 
 ## abstraction
 
@@ -115,14 +115,14 @@
 
 ## static discipline
 
-Logic Level of Logic Family
+__Logic Level of Logic Family__
 
-        | V_DD | V_IL | V_IH | V_OL | V_OH 
----:----|-----:|-----:|-----:|-----:|-----:
- TTL    | 5    | 0.8  | 2.0  | 0.4  | 2.4  
- CMOS   | 5    | 1.35 | 3.15 | 0.33 | 3.84 
- LVTTL  | 3.3  | 0.8  | 2.0  | 0.4  | 2.4  
- LVCMOS | 3.3  | 0.9  | 1.8  | 0.36 | 2.7  
+|        |`V_DD`|`V_IL`|`V_IH`|`V_OL`|`V_OH`|
+|:------:|-----:|-----:|-----:|-----:|-----:|
+| TTL    | 5    | 0.8  | 2.0  | 0.4  | 2.4  |
+| CMOS   | 5    | 1.35 | 3.15 | 0.33 | 3.84 |
+| LVTTL  | 3.3  | 0.8  | 2.0  | 0.4  | 2.4  |
+| LVCMOS | 3.3  | 0.9  | 1.8  | 0.36 | 2.7  |
 
 - TTL: transistor-transistor logic
 - CMOS: complementary metal-oxide-semiconductor logic
@@ -131,14 +131,14 @@ Logic Level of Logic Family
 
 ---
 
-Compatibility of Logic Family
+__Compatibility of Logic Family__
 
-        | TTL | CMOS | LVTTL   | LVCMOS  
----:----|--:--|--:---|----:----|----:----
- TTL    | Yes | No   | Partial | Partial 
- CMOS   | Yes | Yes  | Partial | Partial 
- LVTTL  | Yes | No   | Yes     | Yes     
- LVCMOS | Yes | No   | Yes     | Yes     
+|        | TTL | CMOS | LVTTL   | LVCMOS  |
+|:------:|:---:|:----:|:-------:|:-------:|
+| TTL    | Yes | No   | Partial | Partial |
+| CMOS   | Yes | Yes  | Partial | Partial |
+| LVTTL  | Yes | No   | Yes     | Yes     |
+| LVCMOS | Yes | No   | Yes     | Yes     |
 
 - First line: receivers
 - First column: drivers
