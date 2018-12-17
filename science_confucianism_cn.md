@@ -20,7 +20,7 @@
 第谷布拉赫（Tycho Brahe，1546-1601）文岛（the island of Hven）以筑天文台
 （彼德伯克Peter Burke《知识社会史：从古登堡到狄德罗》
 _A Social History of Knowledge: From Gutenberg to Diderot_
-第三章：知识之建立：新旧机构_Establishing Knowledge: Instituions Old and New_）。
+第三章：知识之建立：新旧机构 _Establishing Knowledge: Instituions Old and New_ ）。
 察之，以其为月上天象，非地物，遂不以为意
 （第氏《论新天象》_Second Book About Recent Phenomena in the Celestial World_）。
 当时天文望远镜未问世，中西古今观测条件几同（帕特里克麦克雷W. Patrick McCray
