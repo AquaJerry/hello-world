@@ -29,7 +29,7 @@ _A Social History of Knowledge: From Gutenberg to Diderot_
 
 ## 相遇与较量
 
-1540年9月27日，保罗三世命名耶稣会（_POPE PAUL III'S APPROVAL OF THE SOCIETY OF JESUS_）。
+1540年9月27日，保罗三世命名耶稣会（"POPE PAUL III'S APPROVAL OF THE SOCIETY OF JESUS"）。
 自1582年，传教士在科普中广布福音。
 晚明时，利玛窦（Matteo Ricci，1552-1610，以下简称利氏）从文人那了解到一些自然知识，
 并分享了他的见闻。
