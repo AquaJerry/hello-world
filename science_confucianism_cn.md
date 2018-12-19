@@ -30,7 +30,9 @@ _A Social History of Knowledge: From Gutenberg to Diderot_
 ## 相遇与较量
 
 1540年9月27日，保罗三世命名耶稣会（"POPE PAUL III'S APPROVAL OF THE SOCIETY OF JESUS"）。
-自1582年，传教士在科普中广布福音。
+自1582年，传教士在科普中广布福音
+（柏理安Liam M. Brockey《东方之旅：1579-1724耶稣会传教团在中国》
+_Journey to the East: The Jesuit Mission to China, 1579-1724_）。
 晚明时，利玛窦（Matteo Ricci，1552-1610，以下简称利氏）从文人那了解到一些自然知识，
 并分享了他的见闻。
 文人们考据了一番。熊明遇（1579-1649）作《则草》、《格致草》、《格言考信》、《渺论存疑》，
