@@ -2,7 +2,7 @@
 
 # Hello World
 
-I'm a student now. In 2016 I met GitHub and have had a lot of fun.
+2016, I met GitHub.
 
 ## Boring Stuff
 
