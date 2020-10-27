@@ -126,7 +126,7 @@ Select `ttf-bitstream-vera`
 
 `echo exec startx>/mnt/home/z/.bash_profile`
 
-`vim /mnt/etc/systemd/system/getty.target.wants/getty\@tty1.service` at `[Service]``ExecStart` substitute `-o '-p -- \\u'` with `-az`
+`vim /mnt/etc/systemd/system/getty.target.wants/getty\@tty1.service` at `[Service]` `ExecStart` substitute `-o '-p -- \\u'` with `-az`
 
 `reboot`
 
