@@ -1,11 +1,13 @@
-# Make Arch Linux on Surface Go 2 (SGO2)
+# Make Arch Linux on Surface Go 2
 2020.10.27
 
 ## Ready
 
 `cp archlinux.iso /dev/sd`?(USB) on another linux pc
 
-Power on SGO2
+Power on Surface GO 2 m3 4+64 (SGO2)
+
+Press F1 till keyboard backlight off
 
 Power options > Choose what the power buttons do > Disable fast startup
 
@@ -24,6 +26,121 @@ Hold SGO2 volume down, tap restart
 
 ## Arch ISO
 
+
+### root@archiso
+
+
+#### Make SGO2 Arch bootable
+
+`fdisk /dev/mmcblk0`
+
+- [ ] partition mmc
+
+`mkfs.vfat -F32 /dev/mmcblk0p1`
+
+`mkfs.ext4 /dev/mmcblk0p2`
+
+`mount /dev/mmcblk0p2 /mnt`
+
+`mkdir /mnt/boot`
+
+`mount /dev/mmcblk0p1 /mnt/boot`
+
 `iwctl`
 
 `station wlan0 connect `*(wifi) `^D`(ctrl d)
+
+`pacstrap /mnt base linux-lts linux-firmware intel-ucode iwd vi uim xorg-server xorg-xinit dmenu firefox wqy-microhei`
+
+Select `ttf-bitstream-vera`
+
+`genfstab /mnt >> /mnt/etc/fstab`
+
+`ls -l /dev/disk/by-partuuid`
+
+`efibootmgr -d /dev/mmcblk0 -p 1 -c -L arch -l /vmlinuz-linux-lts -u 'root=PARTUUID=`PARTUUID to /dev/mmcblk0p2` rw initrd=\intel-ucode.img initrd=\initramfs-linux-lts.img'`
+
+
+#### Make SGO2 Arch user systemwide and web browser usable
+
+`vim /mnt/etc/pam.d/su` uncomment `auth sufficient pam_wheel.so trust use_uid`
+
+`echo a>/mnt/etc/hostname`
+
+`echo -e '127.0.0.1 localhost\n::1 localhost\n127.0.1.1 a.localdomain a'>/mnt/etc/hosts`
+
+`echo -e '[General]\nEnableNetworkConfiguration=true\n[Network]\nNameResolvingService=systemd\n[Scan]\nDisablePeriodicScan=true'>/mnt/etc/iwd/main.conf`
+
+`curl -Lgithub.com/aquajerry/dwm/archive/my.zip -odwm.zip;unzip dwm.zip;cd dwm*;make;mv dwm /mnt/usr/local/bin`(require cc make unzip)
+
+`curl dl.suckless.org/st/st-`version`.tar.gz -ost.tar.gz;tar xf st.tar.gz;cd st*;make;mv st /mnt/usr/local/bin`(require cc make pkgconf)
+
+`echo exec dwm>/mnt/etc/X11/xinit/xinitrc`
+
+
+#### Optimize SGO2 Arch
+
+`vim /mnt/etc/locale.gen` uncomment en_US.UTF-8, zh_CN.UTF-8
+
+`echo LANG=en_US.UTF-8>/mnt/etc/locale.conf`
+
+`echo -e 'evdev:input:*\n KEYBOARD_KEY_70050=rightctrl\n KEYBOARD_KEY_700e3=left'>/mnt/etc/udev/hwdb.d/10-my-modifiers.hwdb`
+
+`vim /mnt/etc/systemd/coredump.conf` set `Storage=none`, `ProcessSizeMax=0`
+
+`vim /mnt/etc/systemd/journald.conf` set `Storage=none`
+
+`echo -e 'kernel.dmesg_restrict=1\nvm.dirty_background_ratio=1\nvm.dirty_ratio=2'>/mnt/etc/sysctl.d/99-sysctl.conf`
+
+`vim /mnt/usr/share/X11/xorg.conf.d/40-libinput.conf` in `Section "InputClass"` add `Option "NaturalScrolling" "on"`, `Option "Tapping" "on"`
+
+`echo unset HISTFILE>/mnt/root/.bashrc`
+
+`cvt 1200 800 30`(Modeline)
+
+`echo -e 'Section "Monitor"\n\tIdentifier "eDP-1"\n\t`Modeline`\n\tOption "PreferredMode" "1200x800_30.00"\nEndSection'>/mnt/etc/X11/xorg.conf.d/10-monitor.conf`
+
+`vim /mnt/etc/fonts/font.conf` in `<fontconfig>` add `<selectfont><rejectfont><glob>/usr/share/fonts/*otf</glob></rejectfont></selectfont>`
+
+`vim /mnt/etc/fonts/conf.d/60-latin.conf` in `<alias>` of `<family>``monospace` prepend `<family>Bitstream Vera Sans Mono</family>`
+
+
+### root@a
+
+`arch-chroot /mnt`
+
+`locale-gen`
+
+`passwd -d root`
+
+`useradd -mr -gwheel z`
+
+`passwd -d z`
+
+`^D`
+
+
+### root@archiso again
+
+`echo unset HISTFILE>/mnt/home/z/.bashrc`
+
+`echo exec startx>/mnt/home/z/.bash_profile`
+
+`vim /mnt/etc/systemd/system/getty.target.wants/getty\@tty1.service` at `[Service]``ExecStart` substitute `-o '-p -- \\u'` with `-az`
+
+`reboot`
+
+Disconnect SGO2 and USB
+
+
+## SGO2 Arch
+
+Alt Shift Enter
+
+`systemctl enable iwd systemd-resolved`
+
+`systemctl start iwd systemd-resolved`
+
+- [ ] unmute by `alsa-utils` package
+- [ ] simplify firefox
+- [ ] uim input method
