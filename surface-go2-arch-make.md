@@ -141,6 +141,8 @@ Alt Shift Enter
 
 `systemctl start iwd systemd-resolved`
 
+`su``echo 75>/sys/class/backlight/intel_backlight/brightness`
+
 - [ ] unmute by `alsa-utils` package
 - [ ] simplify firefox
 - [ ] uim input method
