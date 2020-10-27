@@ -102,7 +102,7 @@ Select `ttf-bitstream-vera`
 
 `vim /mnt/etc/fonts/font.conf` in `<fontconfig>` add `<selectfont><rejectfont><glob>/usr/share/fonts/*otf</glob></rejectfont></selectfont>`
 
-`vim /mnt/etc/fonts/conf.d/60-latin.conf` in `<alias>` of `<family>``monospace` prepend `<family>Bitstream Vera Sans Mono</family>`
+`vim /mnt/etc/fonts/conf.d/60-latin.conf` in `<alias>` of `<family>` `monospace` prepend `<family>Bitstream Vera Sans Mono</family>`
 
 
 ### root@a
