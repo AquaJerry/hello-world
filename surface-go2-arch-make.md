@@ -90,7 +90,7 @@ Select `ttf-bitstream-vera`
 
 `vim /mnt/etc/systemd/journald.conf` set `Storage=none`
 
-`echo -e 'kernel.dmesg_restrict=1\nvm.dirty_background_ratio=1\nvm.dirty_ratio=2'>/mnt/etc/sysctl.d/99-sysctl.conf`
+`echo -e 'kernel.dmesg_restrict=1\nkernel.nmi_watchdog=0\nvm.dirty_background_ratio=1\nvm.dirty_ratio=2\nvm.dirty_writeback_centisecs=6000'>/mnt/etc/sysctl.d/99-sysctl.conf`
 
 `vim /mnt/usr/share/X11/xorg.conf.d/40-libinput.conf` in `Section "InputClass"` add `Option "NaturalScrolling" "on"`, `Option "Tapping" "on"`
 
