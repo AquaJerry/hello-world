@@ -93,9 +93,9 @@ Select `ttf-bitstream-vera`
 
 `echo -e 'Section "Monitor"\n\tIdentifier "eDP-1"\n\t`Modeline`\n\tOption "PreferredMode" "1200x800_30.00"\nEndSection'>/mnt/etc/X11/xorg.conf.d/10-monitor.conf`
 
-`echo -e 'w /sys/devices/system/cpu/cpufreq/policy?/energy_performance_preference - - - - power\nw /sys/devices/system/cpu/intel_pstate/no_turbo - - - - 1'>/etc/tmpfiles.d/power.conf`
+`echo -e 'w /sys/devices/system/cpu/cpufreq/policy?/energy_performance_preference - - - - power\nw /sys/devices/system/cpu/intel_pstate/no_turbo - - - - 1'>/mnt/etc/tmpfiles.d/power.conf`
 
-`echo -e 'options iwlwifi power_save=1\noptions snd_hda_intel power_save=1'>/etc/modprobe.d/power.conf`
+`echo -e 'options iwlwifi power_save=1\noptions snd_hda_intel power_save=1'>/mnt/etc/modprobe.d/power.conf`
 
 
 #### Other
