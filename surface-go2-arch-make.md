@@ -62,7 +62,7 @@ Select `ttf-bitstream-vera`
 `efibootmgr -d /dev/mmcblk0 -p 1 -c -L arch -l /vmlinuz-linux-lts -u 'root=PARTUUID=`PARTUUID to /dev/mmcblk0p2` rw initrd=\intel-ucode.img initrd=\initramfs-linux-lts.img'`
 
 
-#### Make SGO2 Arch user systemwide and web browser usable
+#### Super user and web browser usable
 
 `vim /mnt/etc/pam.d/su` uncomment `auth sufficient pam_wheel.so trust use_uid`
 
@@ -79,10 +79,7 @@ Select `ttf-bitstream-vera`
 `echo exec dwm>/mnt/etc/X11/xinit/xinitrc`
 
 
-#### Better SGO2 Arch
-
-
-##### Right ctrl and power save
+#### Right ctrl and power save
 
 `echo -e 'evdev:input:*\n KEYBOARD_KEY_70050=rightctrl\n KEYBOARD_KEY_700e3=left'>/mnt/etc/udev/hwdb.d/10-my-modifiers.hwdb`
 
@@ -101,7 +98,7 @@ Select `ttf-bitstream-vera`
 `echo -e 'options iwlwifi power_save=1\noptions snd_hda_intel power_save=1'>/etc/modprobe.d/power.conf`
 
 
-##### other
+#### Other
 
 `vim /mnt/usr/share/X11/xorg.conf.d/40-libinput.conf` in `Section "InputClass"` add `Option "NaturalScrolling" "on"`, `Option "Tapping" "on"`
 
