@@ -120,13 +120,13 @@ Select `ttf-bitstream-vera`
 
 `arch-chroot /mnt`
 
-`locale-gen`
-
 `passwd -d root`
 
 `useradd -mr -gwheel z`
 
 `passwd -d z`
+
+`locale-gen`
 
 `^D`
 
