@@ -111,10 +111,6 @@ Select `ttf-bitstream-vera`
 
 `vim /mnt/etc/fonts/conf.d/60-latin.conf` in `<alias>` of `<family>` `monospace` prepend `<family>Bitstream Vera Sans Mono</family>`
 
-`vim /mnt/etc/locale.gen` uncomment en_US.UTF-8, zh_CN.UTF-8
-
-`echo LANG=en_US.UTF-8>/mnt/etc/locale.conf`
-
 
 ### root@a
 
@@ -125,8 +121,6 @@ Select `ttf-bitstream-vera`
 `useradd -mr -gwheel z`
 
 `passwd -d z`
-
-`locale-gen`
 
 `^D`
 
