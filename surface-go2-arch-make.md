@@ -1,6 +1,7 @@
 # Make Arch Linux on Surface Go 2
 2020.10.27
 
+
 ## Ready
 
 `cp archlinux.iso /dev/sd`?(USB) on another linux pc
@@ -78,11 +79,10 @@ Select `ttf-bitstream-vera`
 `echo exec dwm>/mnt/etc/X11/xinit/xinitrc`
 
 
-#### Optimize SGO2 Arch
+#### Better SGO2 Arch
 
-`vim /mnt/etc/locale.gen` uncomment en_US.UTF-8, zh_CN.UTF-8
 
-`echo LANG=en_US.UTF-8>/mnt/etc/locale.conf`
+##### Right ctrl and power save
 
 `echo -e 'evdev:input:*\n KEYBOARD_KEY_70050=rightctrl\n KEYBOARD_KEY_700e3=left'>/mnt/etc/udev/hwdb.d/10-my-modifiers.hwdb`
 
@@ -92,17 +92,28 @@ Select `ttf-bitstream-vera`
 
 `echo -e 'kernel.dmesg_restrict=1\nkernel.nmi_watchdog=0\nvm.dirty_background_ratio=1\nvm.dirty_ratio=2\nvm.dirty_writeback_centisecs=6000'>/mnt/etc/sysctl.d/99-sysctl.conf`
 
-`vim /mnt/usr/share/X11/xorg.conf.d/40-libinput.conf` in `Section "InputClass"` add `Option "NaturalScrolling" "on"`, `Option "Tapping" "on"`
-
-`echo unset HISTFILE>/mnt/root/.bashrc`
-
 `cvt 1200 800 30`(Modeline)
 
 `echo -e 'Section "Monitor"\n\tIdentifier "eDP-1"\n\t`Modeline`\n\tOption "PreferredMode" "1200x800_30.00"\nEndSection'>/mnt/etc/X11/xorg.conf.d/10-monitor.conf`
 
+`echo -e 'w /sys/devices/system/cpu/cpufreq/policy?/energy_performance_preference - - - - power\nw /sys/devices/system/cpu/intel_pstate/no_turbo - - - - 1'>/etc/tmpfiles.d/power.conf`
+
+`echo -e 'options iwlwifi power_save=1\noptions snd_hda_intel power_save=1'>/etc/modprobe.d/power.conf`
+
+
+##### other
+
+`vim /mnt/usr/share/X11/xorg.conf.d/40-libinput.conf` in `Section "InputClass"` add `Option "NaturalScrolling" "on"`, `Option "Tapping" "on"`
+
+`echo unset HISTFILE>/mnt/root/.bashrc`
+
 `vim /mnt/etc/fonts/font.conf` in `<fontconfig>` add `<selectfont><rejectfont><glob>/usr/share/fonts/*otf</glob></rejectfont></selectfont>`
 
 `vim /mnt/etc/fonts/conf.d/60-latin.conf` in `<alias>` of `<family>` `monospace` prepend `<family>Bitstream Vera Sans Mono</family>`
+
+`vim /mnt/etc/locale.gen` uncomment en_US.UTF-8, zh_CN.UTF-8
+
+`echo LANG=en_US.UTF-8>/mnt/etc/locale.conf`
 
 
 ### root@a
