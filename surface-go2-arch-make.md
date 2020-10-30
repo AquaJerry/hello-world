@@ -57,9 +57,7 @@ Select `ttf-bitstream-vera`
 
 `genfstab /mnt >> /mnt/etc/fstab`
 
-`ls -l /dev/disk/by-partuuid`
-
-`efibootmgr -d /dev/mmcblk0 -p 1 -c -L arch -l /vmlinuz-linux-lts -u 'root=PARTUUID=`PARTUUID to /dev/mmcblk0p2` rw initrd=\intel-ucode.img initrd=\initramfs-linux-lts.img'`
+```efibootmgr -d /dev/mmcblk0 -p 1 -c -L arch -l /vmlinuz-linux-lts -u root=PARTUUID=`ls -l /dev/disk/by-partuuid|grep mmcblk0p2|cut -d' ' -f9`' rw initrd=\intel-ucode.img initrd=\initramfs-linux-lts.img'```
 
 
 #### Super user and web browser usable
