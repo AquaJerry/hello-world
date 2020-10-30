@@ -72,7 +72,7 @@ Select `ttf-bitstream-vera`
 
 `echo -e '[General]\nEnableNetworkConfiguration=true\n[Network]\nNameResolvingService=systemd\n[Scan]\nDisablePeriodicScan=true'>/mnt/etc/iwd/main.conf`
 
-`curl -Lgithub.com/aquajerry/dwm/archive/my.zip -odwm.zip;unzip dwm.zip;cd dwm*;make;mv dwm /mnt/usr/local/bin`(require cc make unzip)
+`curl -L github.com/aquajerry/dwm/archive/my.zip -odwm.zip;unzip dwm.zip;cd dwm*;make;mv dwm /mnt/usr/local/bin`(require cc make unzip)
 
 `curl dl.suckless.org/st/st-`version`.tar.gz -ost.tar.gz;tar xf st.tar.gz;cd st*;make;mv st /mnt/usr/local/bin`(require cc make pkgconf)
 
