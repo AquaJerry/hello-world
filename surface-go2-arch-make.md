@@ -135,11 +135,11 @@ Disconnect SGO2 and USB
 
 Alt Shift Enter
 
+`su` `echo 75 >/sys/class/backlight/intel_backlight/brightness`
+
 `systemctl enable iwd systemd-resolved`
 
 `systemctl start iwd systemd-resolved`
-
-`su` `echo 75 >/sys/class/backlight/intel_backlight/brightness`
 
 - [ ] unmute by `alsa-utils` package
 - [ ] simplify firefox
