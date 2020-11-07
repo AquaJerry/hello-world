@@ -87,7 +87,7 @@ Select `ttf-bitstream-vera`
 
 `echo -e 'kernel.dmesg_restrict=1\nkernel.nmi_watchdog=0\nvm.dirty_background_ratio=1\nvm.dirty_ratio=2\nvm.dirty_writeback_centisecs=6000'>/mnt/etc/sysctl.d/99-sysctl.conf`
 
-```echo -e 'Section "Monitor"\n\tIdentifier "eDP-1"\n\t'`cvt 1200 800 30|tail -n1`'\n\tOption "PreferredMode" "1200x800_30.00"\nEndSection'>/mnt/etc/X11/xorg.conf.d/10-monitor.conf```
+```echo -e 'Section "Monitor"\n\tIdentifier "eDP-1"\n\t'`cvt 1152 768 30|tail -n1`'\n\tOption "PreferredMode" "1152x768_30.00"\nEndSection'>/mnt/etc/X11/xorg.conf.d/10-monitor.conf```
 
 `echo -e 'w /sys/devices/system/cpu/cpufreq/policy?/energy_performance_preference - - - - power\nw /sys/devices/system/cpu/intel_pstate/no_turbo - - - - 1'>/mnt/etc/tmpfiles.d/power.conf`
 
