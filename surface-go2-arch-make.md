@@ -1,6 +1,17 @@
 # Make Arch Linux on Surface Go 2
 2020.10.27
 
+It is most recommended to try the easy-to-use Microsoft PowerToys on Windows 10
+rather than drive into the hell of linux installation.
+
+
+## PowerToys
+
+- https://github.com/microsoft/PowerToys
+- https://docs.microsoft.com/en-us/windows/powertoys
+
+If PowerToys meets your need, ignore the other part of this article.
+
 
 ## Ready
 
