@@ -8,7 +8,7 @@ rather than drive into the hell of linux installation.
 ## PowerToys
 
 - https://github.com/microsoft/PowerToys
-- https://docs.microsoft.com/en-us/windows/powertoys
+- https://docs.microsoft.com/windows/powertoys
 
 If PowerToys meets your need, ignore the other part of this article.
 
