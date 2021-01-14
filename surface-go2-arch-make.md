@@ -10,7 +10,31 @@ rather than drive into the hell of linux installation.
 - https://github.com/microsoft/PowerToys
 - https://docs.microsoft.com/windows/powertoys
 
-If PowerToys meets your need, ignore the other part of this article.
+For example, remap shortcuts like UNIX readline with Keyboard Manager.
+Default target app is all.
+
+Shortcut     | Mapped To       | Target App
+-------------|-----------------|-----------
+Alt(Left) H  | Backspace       |
+Alt(Left) I  | Tab             |
+Alt(Left) J  | PgDn            |
+Alt(Left) K  | PgUp            |
+Alt(Left) L  | Shift End       |
+Alt(Left) M  | Enter           |
+Alt(Left) N  | Down            |
+Alt(Left) P  | Up              |
+Alt(Left) U  | Shift Home      |
+Alt(Right) A | Home            |
+Alt(Right) B | Left            |
+Alt(Right) D | Delete          |
+Alt(Right) E | End             |
+Alt(Right) F | Right           |
+Alt(Right) G | Esc             |
+Alt(Right) W | Ctrl Shift Left |
+Alt(Left) ,  | Browser Back    | msedge
+Alt(Left) .  | Browser Forward | msedge
+
+__NOTICE: If PowerToys meets your need, ignore the other part of this article.__
 
 
 ## Ready
