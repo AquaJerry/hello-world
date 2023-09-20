@@ -24,6 +24,7 @@ Byment,广州,百漫
 CCTV,北京,央视
 CGYear,北京,中影年年
 Carloon,常州,卡龙
+Chirying,上海,佳荧
 Chongliyuhua,北京,重力聿画
 Chongzhuo,杭州,崇卓
 Chunyun,郴州,春韵
@@ -32,6 +33,7 @@ Coastline,上海,欣雨
 Coco,成都,可可豆
 ColoredPencil,重庆,彩铅
 CreativePower,广州,原创动力
+DCImpression,北京,大呈
 Dali,广州,达力
 Dancing,苏州,舞之
 Dawn,杭州,七瞳
@@ -76,7 +78,9 @@ L-key,杭州,路行
 L2Studio,成都,艾尔平方
 LAN,深圳,澜映画
 Labidoudou,广州,啦比豆豆
+Le-joy,南京,乐无边
 LeftPocket,上海,左袋
+Liangzi,苏州,良子
 LightChaser,北京,追光
 Lingxi,上海,灵樨
 Lotta,广州,乐淘
@@ -131,6 +135,7 @@ Soyep,杭州,索以
 SparklyKey,杭州,玄机
 SteamWorks,杭州,蒸汽工场
 Sunflowers,南京,戏画谷
+Taikong,北京,华映
 Taishine,合肥,泰尚
 Taomee,上海,淘米
 TenTails,广州,十尾
