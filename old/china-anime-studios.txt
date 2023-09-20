@@ -24,6 +24,7 @@ Byment,广州,百漫
 CCTV,北京,央视
 CGYear,北京,中影年年
 Carloon,常州,卡龙
+Chongliyuhua,北京,重力聿画
 Chongzhuo,杭州,崇卓
 Chunyun,郴州,春韵
 CloudArt,广州,云图
@@ -94,6 +95,7 @@ Mote,沈阳,微尘
 MotionMagic,上海,幻维
 NiceBoat,天津,好传
 Ningyu,长春,凝羽
+October,北京,十月
 One&All,北京,中传合道
 OrientalCreativeColor,北京,天工艺彩
 OriginalForce,南京,原力
@@ -156,7 +158,9 @@ Xanthus,上海,绚素
 Xiaoru,上海,潇如
 YHKT,武汉,艺画开天
 YearYoung,天津,炎央
+YiAnimation,广州,易动
 Yichen,广州,羿辰
+Yinhechangxing,北京,银河长兴
 Yiqianyi,襄阳,艺千意
 YiwenNewFairyTale,长沙,艺文新童话
 Yogsun,长沙,永熙
