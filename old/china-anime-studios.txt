@@ -11,11 +11,13 @@ Anitime,东莞,艾力达
 Ant,开封,玄蚂
 Aqua,上海,澧泉
 Arc,深圳,狐光
+Aurora,北京,极光
 B&T,北京,彼岸天
 B.CMAY,北京,视美
 Bewhale,大连,追鲸
 Bianyue,上海,变月
 BigFireBird,广州,大火鸟
+Bigbigsun,北京,大千阳光
 BlueArc,广州,蓝弧
 Bluebird,厦门,青鸟
 Boruntong,武汉,博润通
@@ -35,6 +37,7 @@ Coco,成都,可可豆
 ColoredPencil,重庆,彩铅
 CreativePower,广州,原创动力
 DCImpression,北京,大呈
+DRockArt,杭州,黑岩
 Dali,广州,达力
 Dancing,苏州,舞之
 Dawn,杭州,七瞳
@@ -115,6 +118,7 @@ PassionPaint,北京,君艺心
 PbAnimation,重庆,铅元素
 Photounclear,广州,光核社
 PineForest,北京,金松林
+Pinhui,南宁,品绘
 Planet,上海,卡邦
 PureArts,苏州,伊恩
 Putao,上海,葡萄
@@ -155,6 +159,7 @@ Transcendence,广州,超神
 Tsanghao,大连,乾豪
 TthunDer,杭州,天雷
 Tumble,北京,瞳浦
+Tyhoo,成都,天火
 UpStudios,北京,上游
 Vasoon,北京,青青树
 Wawayu,杭州,娃娃鱼
