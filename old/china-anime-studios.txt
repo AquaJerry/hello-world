@@ -24,6 +24,7 @@ Byment,广州,百漫
 CCTV,北京,央视
 CGYear,北京,中影年年
 Carloon,常州,卡龙
+Children'sPlayground,上海,童园
 Chirying,上海,佳荧
 Chongliyuhua,北京,重力聿画
 Chongzhuo,杭州,崇卓
@@ -56,7 +57,7 @@ GoldenUnicorn,武汉,鼎盛麒麟
 GreatDreams,长沙,宏梦
 GreenMonster,广州,绿怪研
 Gudong,杭州,咕咚
-HMCH,北京,寒木春华
+HMCH,天津,寒木春华
 HMHeros,上海,幻马
 Haoliners,上海,绘梦
 Heaven,苏州,天堂
@@ -70,6 +71,7 @@ ITS,北京,其卡通
 Infinity,广州,更三
 JJJoy,北京,将将将
 JiangToon,武汉,江通
+Joicy,杭州,喜悦
 Kaca,上海,咔咖
 Kaku,宁波,卡酷
 Kun,北京,堃
@@ -84,8 +86,10 @@ Liangzi,苏州,良子
 LightChaser,北京,追光
 Lingxi,上海,灵樨
 Lotta,广州,乐淘
+LuxPopuli,北京,露米埃
 MM.Studio,湘潭,毫米
 MXZ,重庆,漫想族
+Magic,成都,魔法
 Making,广州,九五年
 Martians,广州,火星人
 Maten,深圳,谜谭
@@ -104,6 +108,7 @@ One&All,北京,中传合道
 OrientalCreativeColor,北京,天工艺彩
 OriginalForce,南京,原力
 PaintedEdge,上海,绘之刃
+PaintingDream,厦门,绘梦想
 Pans,苏州,磐石
 PaperPlane,北京,纸飞机
 PassionPaint,北京,君艺心
@@ -127,6 +132,7 @@ Ruyitoon,苏州,如意通
 Saiji,厦门,赛几
 Samara,衢州,六道无鱼
 SevenStone,上海,七灵石
+Shamozhou,厦门,沙漠舟
 ShanghaiAnimationFilm,上海,美影
 Shanshui,深圳,山水
 Sharefun,广州,小疯
