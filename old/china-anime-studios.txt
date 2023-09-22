@@ -30,6 +30,7 @@ ChildrensPlayground,上海,童园
 Chirying,上海,佳荧
 Chongliyuhua,北京,重力聿画
 Chongzhuo,杭州,崇卓
+Chosen,北京,初色
 Chunyun,郴州,春韵
 CloudArt,广州,云图
 Coastline,上海,欣雨
@@ -52,6 +53,7 @@ FENZ,北京,分子互动
 Fantasia,上海,今日
 Fantawild,深圳,方特
 Foch,上海,福煦
+ForFun,北京,全擎
 Garden,上海,花原
 Global,香港,环球
 Glorious,北京,辉煌
@@ -71,6 +73,7 @@ Huanju,杭州,欢聚
 Hutoon,北京,互象
 IDragons,上海,龙族
 ITS,北京,其卡通
+Ideomotor,北京,念动
 Infinity,广州,更三
 JJJoy,北京,将将将
 JiangToon,武汉,江通
@@ -91,6 +94,7 @@ Lingxi,上海,灵樨
 Lotta,广州,乐淘
 LuxPopuli,北京,露米埃
 MMStudio,湘潭,毫米
+MMT,北京,漫漫淘
 MXZ,重庆,漫想族
 Magic,成都,魔法
 Making,广州,九五年
@@ -111,6 +115,7 @@ OneAll,北京,中传合道
 OrientalCreativeColor,北京,天工艺彩
 OriginalForce,南京,原力
 PaintedEdge,上海,绘之刃
+Paintfree,北京,华尚天成
 PaintingDream,厦门,绘梦想
 Pans,苏州,磐石
 PaperPlane,北京,纸飞机
@@ -133,6 +138,7 @@ RedFeather,郑州,红羽
 Rocen,北京,若森
 RuoHong,杭州,若鸿
 Ruyitoon,苏州,如意通
+SONOOO,天津,虫左道右
 Saiji,厦门,赛几
 Samara,衢州,六道无鱼
 SevenStone,上海,七灵石
@@ -143,6 +149,7 @@ Sharefun,广州,小疯
 Shengying,北京,声影
 Soyep,杭州,索以
 SparklyKey,杭州,玄机
+StandTower,北京,屹立
 SteamWorks,杭州,蒸汽工场
 Sunflowers,南京,戏画谷
 Taikong,北京,华映
