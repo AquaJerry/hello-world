@@ -21,6 +21,7 @@ Bigbigsun,北京,大千阳光
 BlueArc,广州,蓝弧
 Bluebird,厦门,青鸟
 Boruntong,武汉,博润通
+Boyan,金华,柏言
 BuildDream,石家庄,铸梦
 Byment,广州,百漫
 CCTV,北京,央视
@@ -35,6 +36,7 @@ Chunyun,郴州,春韵
 CloudArt,广州,云图
 Coastline,上海,欣雨
 Coco,成都,可可豆
+ColorFlow,杭州,流彩
 ColoredPencil,重庆,彩铅
 CreativePower,广州,原创动力
 DCImpression,北京,大呈
@@ -70,6 +72,7 @@ Hippo,上海,河马
 HuaMei,杭州,画枚
 Huaman,深圳,华漫
 Huanju,杭州,欢聚
+Hunshi,济南,魂拾
 Hutoon,北京,互象
 IDragons,上海,龙族
 ITS,北京,其卡通
@@ -91,10 +94,12 @@ LeftPocket,上海,左袋
 Liangzi,苏州,良子
 LightChaser,北京,追光
 Lingxi,上海,灵樨
+Longzone,上海,龙沧
 Lotta,广州,乐淘
 LuxPopuli,北京,露米埃
 MMStudio,湘潭,毫米
 MMT,北京,漫漫淘
+MOJO,上海,景亿
 MXZ,重庆,漫想族
 Magic,成都,魔法
 Making,广州,九五年
@@ -113,6 +118,7 @@ Ningyu,长春,凝羽
 October,北京,十月
 OneAll,北京,中传合道
 OrientalCreativeColor,北京,天工艺彩
+OriginalDream,广州,源初
 OriginalForce,南京,原力
 PaintedEdge,上海,绘之刃
 Paintfree,北京,华尚天成
@@ -150,6 +156,7 @@ Shengying,北京,声影
 Soyep,杭州,索以
 SparklyKey,杭州,玄机
 StandTower,北京,屹立
+StarHunter,济南,猎星
 SteamWorks,杭州,蒸汽工场
 Sunflowers,南京,戏画谷
 Taikong,北京,华映
@@ -158,6 +165,7 @@ Taomee,上海,淘米
 TenTails,广州,十尾
 Thundray,上海,震雷
 Tianpeng,沈阳,天鹏
+Tina,江门,天南
 Tinkid,北京,电动画
 Tongmingxuan,上海,同明宣
 Tootoo,绍兴,兔兔
@@ -180,14 +188,17 @@ Wuyoushijie,北京,无忧视界
 Xanthus,上海,绚素
 Xiaoru,上海,潇如
 YHKT,武汉,艺画开天
+YINO,洛阳,一诺
 YearYoung,天津,炎央
 YiAnimation,广州,易动
 Yichen,广州,羿辰
 Yinhechangxing,北京,银河长兴
 Yiqianyi,襄阳,艺千意
 YiwenNewFairyTale,长沙,艺文新童话
+Yofox,北京,有狐
 Yogsun,长沙,永熙
 Youngzone,上海,央数
+Yudubai,北京,鱼肚白
 Yufu,常州,渔夫
 Zhihe,长春,知合
 Zhihui,哈尔滨,智慧
