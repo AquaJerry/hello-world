@@ -18,6 +18,7 @@ Bewhale,大连,追鲸
 Bianyue,上海,变月
 BigFireBird,广州,大火鸟
 Bigbigsun,北京,大千阳光
+Block12,太原,十二栋
 BlueArc,广州,蓝弧
 Bluebird,厦门,青鸟
 Boruntong,武汉,博润通
@@ -51,6 +52,7 @@ Dison,北京,迪生
 DjinnPower,上海,聚灵
 Elite,石家庄,精英
 Era,深圳,时代
+EscapeVelocity,北京,空速
 FENZ,北京,分子互动
 Fantasia,上海,今日
 Fantawild,深圳,方特
@@ -102,6 +104,7 @@ MMT,北京,漫漫淘
 MOJO,上海,景亿
 MXZ,重庆,漫想族
 Magic,成都,魔法
+MagicHill,北京,仙山
 Making,广州,九五年
 Martians,广州,火星人
 Maten,深圳,谜谭
@@ -130,6 +133,7 @@ PbAnimation,重庆,铅元素
 Photounclear,广州,光核社
 PineForest,北京,金松林
 Pinhui,南宁,品绘
+Pinta,北京,平塔
 Planet,上海,卡邦
 PureArts,苏州,伊恩
 Putao,上海,葡萄
@@ -153,10 +157,13 @@ ShanghaiAnimationFilm,上海,美影
 Shanshui,深圳,山水
 Sharefun,广州,小疯
 Shengying,北京,声影
+Skyloong,厦门,海天云龙
+SoulStone,北京,灵魂石
 Soyep,杭州,索以
 SparklyKey,杭州,玄机
 StandTower,北京,屹立
 StarHunter,济南,猎星
+Staro,北京,星律
 SteamWorks,杭州,蒸汽工场
 Sunflowers,南京,戏画谷
 Taikong,北京,华映
@@ -167,7 +174,7 @@ Thundray,上海,震雷
 Tianpeng,沈阳,天鹏
 Tina,江门,天南
 Tinkid,北京,电动画
-Tongmingxuan,上海,同明宣
+Tongmingxuan,宿州,同明宣
 Tootoo,绍兴,兔兔
 Topjoy,绍兴,特立宙
 Transcendence,广州,超神
@@ -186,6 +193,7 @@ Wuhu,杭州,悟乎
 Wulifang,北京,吾立方
 Wuyoushijie,北京,无忧视界
 Xanthus,上海,绚素
+Xianzhiyu,广州,咸之鱼
 Xiaoru,上海,潇如
 YHKT,武汉,艺画开天
 YINO,洛阳,一诺
@@ -202,4 +210,5 @@ Yudubai,北京,鱼肚白
 Yufu,常州,渔夫
 Zhihe,长春,知合
 Zhihui,哈尔滨,智慧
+Zhont,深圳,灼华
 Zoland,杭州,中南
