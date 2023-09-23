@@ -50,6 +50,7 @@ DazzlingStar,北京,璀璨星空
 DigitalArt,北京,艺数
 Dison,北京,迪生
 DjinnPower,上海,聚灵
+Dorado,无锡,剑鱼
 Easy,哈尔滨,一泽
 Elite,石家庄,精英
 Era,深圳,时代
@@ -84,6 +85,7 @@ Ideomotor,北京,念动
 Infinity,广州,更三
 JJJoy,北京,将将将
 JiangToon,武汉,江通
+Jintu,杭州,野团子
 Joicy,杭州,喜悦
 Kaca,上海,咔咖
 Kaku,宁波,卡酷
@@ -115,10 +117,12 @@ MaxWorld,上海,骄寅
 Maya,武汉,玛雅
 McWaltz,广州,昊源
 Meisheng,杭州,美盛
+Mengbu,温州,梦卜
 Miao8,南通,妙吧
 Mili,苏州,米粒
 Mote,沈阳,微尘
 MotionMagic,上海,幻维
+Mutong,大连,牧童
 NiceBoat,天津,好传
 Ningyu,长春,凝羽
 October,北京,十月
@@ -154,7 +158,7 @@ RuoHong,杭州,若鸿
 Ruyitoon,苏州,如意通
 SONOOO,天津,虫左道右
 Saiji,厦门,赛几
-Samara,衢州,六道无鱼
+Samsara,衢州,六道无鱼
 SevenStone,上海,七灵石
 Shamozhou,厦门,沙漠舟
 ShanghaiAnimationFilm,上海,美影
