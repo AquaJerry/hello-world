@@ -50,6 +50,7 @@ DazzlingStar,北京,璀璨星空
 DigitalArt,北京,艺数
 Dison,北京,迪生
 DjinnPower,上海,聚灵
+Easy,哈尔滨,一泽
 Elite,石家庄,精英
 Era,深圳,时代
 EscapeVelocity,北京,空速
@@ -71,6 +72,7 @@ HMHeros,上海,幻马
 Haoliners,上海,绘梦
 Heaven,苏州,天堂
 Hippo,上海,河马
+HuaDream,长沙,神幻九州
 HuaMei,杭州,画枚
 Huaman,深圳,华漫
 Huanju,杭州,欢聚
@@ -96,6 +98,7 @@ LeftPocket,上海,左袋
 Liangzi,苏州,良子
 LightChaser,北京,追光
 Lingxi,上海,灵樨
+Liyu,长沙,立羽
 Longzone,上海,龙沧
 Lotta,广州,乐淘
 LuxPopuli,北京,露米埃
@@ -123,6 +126,7 @@ OneAll,北京,中传合道
 OrientalCreativeColor,北京,天工艺彩
 OriginalDream,广州,源初
 OriginalForce,南京,原力
+OriginalHeart,武汉,匠心
 PaintedEdge,上海,绘之刃
 Paintfree,北京,华尚天成
 PaintingDream,厦门,绘梦想
@@ -208,6 +212,8 @@ Yogsun,长沙,永熙
 Youngzone,上海,央数
 Yudubai,北京,鱼肚白
 Yufu,常州,渔夫
+ZHOME,无锡,梓宏
+Zhenhuan,齐齐哈尔,震环
 Zhihe,长春,知合
 Zhihui,哈尔滨,智慧
 Zhont,深圳,灼华
