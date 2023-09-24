@@ -53,6 +53,7 @@ DigitalArt,北京,艺数
 Dison,北京,迪生
 DjinnPower,上海,聚灵
 Dorado,无锡,剑鱼
+Dreamaker,广州,创梦者
 Easy,哈尔滨,一泽
 Elite,石家庄,精英
 Era,深圳,时代
@@ -102,6 +103,7 @@ LeftPocket,上海,左袋
 Liangzi,苏州,良子
 LightChaser,北京,追光
 LightTree,厦门,光树
+Lingsanwu,深圳,灵叁伍
 Lingxi,上海,灵樨
 Liyu,长沙,立羽
 Longzone,上海,龙沧
@@ -140,6 +142,7 @@ OriginalHeart,武汉,匠心
 PaintedEdge,上海,绘之刃
 Paintfree,北京,华尚天成
 PaintingDream,厦门,绘梦想
+PandaTower,武汉,聚喵
 Pans,苏州,磐石
 PaperPlane,北京,纸飞机
 PassionPaint,北京,君艺心
@@ -155,6 +158,7 @@ Puzzle,深圳,方块
 Qianqi,广州,千骐
 Qiying,成都,奇影
 Qiyuan,北京,启缘
+ROCKHOLD,广州,禾于文石
 Rainbridge,深圳,雨桥
 Raybox,北京,光盒力量
 Realwood,杭州,润物
@@ -224,6 +228,7 @@ Yogsun,长沙,永熙
 Youngzone,上海,央数
 Yudubai,北京,鱼肚白
 Yufu,常州,渔夫
+Yuujin,深圳,友人
 ZHOME,无锡,梓宏
 Zhenhuan,齐齐哈尔,震环
 Zhihe,长春,知合
