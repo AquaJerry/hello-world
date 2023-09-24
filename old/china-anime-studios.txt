@@ -12,8 +12,10 @@ Ant,开封,玄蚂
 Aqua,上海,澧泉
 Arc,深圳,狐光
 Aurora,北京,极光
+AzureSea,北京,碧海
 BCMAY,北京,视美
 BT,北京,彼岸天
+Base,厦门,倍视
 Bewhale,大连,追鲸
 Bianyue,上海,变月
 BigFireBird,广州,大火鸟
@@ -99,6 +101,7 @@ LeJoy,南京,乐无边
 LeftPocket,上海,左袋
 Liangzi,苏州,良子
 LightChaser,北京,追光
+LightTree,厦门,光树
 Lingxi,上海,灵樨
 Liyu,长沙,立羽
 Longzone,上海,龙沧
@@ -108,6 +111,7 @@ MMStudio,湘潭,毫米
 MMT,北京,漫漫淘
 MOJO,上海,景亿
 MXZ,重庆,漫想族
+MagiDian,北京,神奇一天
 Magic,成都,魔法
 MagicHill,北京,仙山
 Making,广州,九五年
@@ -116,6 +120,7 @@ Maten,深圳,谜谭
 MaxWorld,上海,骄寅
 Maya,武汉,玛雅
 McWaltz,广州,昊源
+Medo,福州,漫道
 Meisheng,杭州,美盛
 Mengbu,温州,梦卜
 Miao8,南通,妙吧
@@ -127,6 +132,7 @@ NiceBoat,天津,好传
 Ningyu,长春,凝羽
 October,北京,十月
 OneAll,北京,中传合道
+Orcen,北京,奥睿森
 OrientalCreativeColor,北京,天工艺彩
 OriginalDream,广州,源初
 OriginalForce,南京,原力
@@ -156,6 +162,7 @@ RedFeather,郑州,红羽
 Rocen,北京,若森
 RuoHong,杭州,若鸿
 Ruyitoon,苏州,如意通
+SJYNEXCUS,北京,双界仪
 SONOOO,天津,虫左道右
 Saiji,厦门,赛几
 Samsara,衢州,六道无鱼
@@ -203,6 +210,7 @@ Wuyoushijie,北京,无忧视界
 Xanthus,上海,绚素
 Xianzhiyu,广州,咸之鱼
 Xiaoru,上海,潇如
+Xingyikaichen,北京,兴艺凯晨
 YHKT,武汉,艺画开天
 YINO,洛阳,一诺
 YearYoung,天津,炎央
