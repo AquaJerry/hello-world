@@ -60,6 +60,7 @@ Era,深圳,时代
 EscapeVelocity,北京,空速
 FENZ,北京,分子互动
 Fantasia,上海,今日
+Fantasier,苏州,幻想师
 Fantawild,深圳,方特
 Foch,上海,福煦
 ForFun,北京,全擎
@@ -75,7 +76,9 @@ HMCH,天津,寒木春华
 HMHeros,上海,幻马
 Haoliners,上海,绘梦
 Heaven,苏州,天堂
+Hezhou,苏州,核舟
 Hippo,上海,河马
+Hongli,苏州,红鲤
 HuaDream,长沙,神幻九州
 HuaMei,杭州,画枚
 Huaman,深圳,华漫
