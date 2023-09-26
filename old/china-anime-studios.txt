@@ -13,7 +13,7 @@ Aqua,上海,澧泉
 Arc,深圳,狐光
 Aurora,北京,极光
 AzureSea,北京,碧海
-BCMAY,北京,视美
+BCMAY,重庆,视美
 BT,北京,彼岸天
 Base,厦门,倍视
 Bewhale,大连,追鲸
@@ -104,6 +104,7 @@ Labidoudou,广州,啦比豆豆
 LeJoy,南京,乐无边
 LeftPocket,上海,左袋
 Liangzi,苏州,良子
+LightAndShadow,成都,光影
 LightChaser,北京,追光
 LightTree,厦门,光树
 Lingsanwu,深圳,灵叁伍
@@ -135,6 +136,7 @@ MotionMagic,上海,幻维
 Mutong,大连,牧童
 NiceBoat,天津,好传
 Ningyu,长春,凝羽
+Nuctopus,上海,章鱼
 October,北京,十月
 OneAll,北京,中传合道
 Orcen,北京,奥睿森
@@ -218,6 +220,7 @@ Xanthus,上海,绚素
 Xianzhiyu,广州,咸之鱼
 Xiaoru,上海,潇如
 Xingyikaichen,北京,兴艺凯晨
+Xmov,上海,魔珐
 YHKT,武汉,艺画开天
 YINO,洛阳,一诺
 YearYoung,天津,炎央
