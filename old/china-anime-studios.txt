@@ -259,7 +259,7 @@ YiAnimation,广州,易动
 Yichen,广州,羿辰
 Yinhechangxing,北京,银河长兴
 Yiqianyi,襄阳,艺千意
-YiwenNewFairyTale,长沙,艺文新童话
+Yiwen,长沙,艺文
 Yofox,北京,有狐
 Yogsun,长沙,永熙
 Youngzone,上海,央数
