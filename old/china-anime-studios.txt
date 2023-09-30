@@ -66,6 +66,7 @@ FENZ,北京,分子互动
 Fantasia,上海,今日
 Fantasier,苏州,幻想师
 Fantawild,深圳,方特
+FishingCat,石家庄,渔猫
 Foch,上海,福煦
 ForFun,北京,全擎
 Garden,上海,花原
@@ -104,10 +105,12 @@ Kun,北京,堃
 Kungfufrog,成都,元气蛙
 L2Studio,成都,艾尔平方
 LAN,深圳,澜映画
+LHL,北京,左手上篮
 LKey,杭州,路行
 Labidoudou,广州,啦比豆豆
 LeJoy,南京,乐无边
 LeftPocket,上海,左袋
+Letao,合肥,乐淘
 Liangzi,苏州,良子
 LightAndShadow,成都,光影
 LightChaser,北京,追光
@@ -195,6 +198,7 @@ ShanghaiAnimationFilm,上海,美影
 Shanshui,深圳,山水
 Sharefun,广州,小疯
 Shengying,北京,声影
+Skyfire,武汉,天火
 Skyloong,厦门,海天云龙
 SoulStone,北京,灵魂石
 Soyep,杭州,索以
@@ -228,6 +232,7 @@ Vasoon,北京,青青树
 Virtual,广州,虚拟
 Wawayu,杭州,娃娃鱼
 Weichuangjiangxin,厦门,维创匠心
+WhiteDeer,苏州,白鹿
 WinSing,广州,咏声
 WolfSmoke,上海,狼烟
 WonderCat,北京,万维猫
@@ -236,6 +241,7 @@ Wulifang,北京,吾立方
 Wuyoushijie,北京,无忧视界
 Xanthus,上海,绚素
 Xianzhiyu,广州,咸之鱼
+Xiaokeai,合肥,小可爱
 Xiaoru,上海,潇如
 Xingyikaichen,北京,兴艺凯晨
 Xmov,上海,魔珐
