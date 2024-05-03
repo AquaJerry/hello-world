@@ -36,6 +36,10 @@ Alt(Left) .  | Browser Forward | msedge
 
 __NOTICE: If PowerToys meets your need, ignore the other part of this article.__
 
+Registries to disable Windows Focus:  
+`HKEY_CURRENT_USER/Software/Policies/Microsoft/Windows/Explorer/DisableNotifictaionCenter:dword:1`
+`HKEY_LOCAL_MACHINE/SOFTWARE/Policies/Microsoft/Windows/Explorer/DisableNotificationCenter:dword:1`
+
 
 ## Ready
 
