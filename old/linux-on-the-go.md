@@ -1,11 +1,31 @@
-# Make Arch Linux on Surface Go 2
-2020.10.27
+# Linux on the Go
+
+Install Termux, Termux:X11, then in Termux
+
+`pkg in --no-install-recommends --no-install-suggests x11-repo termux-x11-nightly`
+
+`curl -L github.com/aquajerry/dwm/archive/my.zip -odwm.zip;unzip dwm.zip;cd dwm-my;make;mv dwm /data/data/com.termux/files/usr/bin`(require cc make unzip; if error, try `pkg in xorgproto`); dmenu required; firefox, vim suggested
+
+Then touch a file like this:
+```
+# /data/data/com.termux/files/home/.profile
+pulseaudio --exit-idle-time=-1 --load='module-native-protocol-tcp auth-anonymous=1 auth-ip-acl=127.0.01' --start
+termux-x11 -xstartup dwm
+```
+If you wanna hide the Termux:X11 app, add `am start com.termux.x11/com.termux.x11.MainActivity` before the line of `termux-x11 ...` to goto the app automatically.
+
+If you can't hear any sound on some Samsung device, add `LD_PRELOAD=/system/lib64/libskcodec.so` before the line of `pulseaudio ...` to fix some bug on One UI 6.
+
+__NOTICE: If above meets your need, ignore the other part of this article.__
+
+
+## Make Arch Linux on Surface Go 2
 
 It is most recommended to try the easy-to-use Microsoft PowerToys on Windows 10
 rather than drive into the hell of linux installation.
 
 
-## PowerToys
+### PowerToys
 
 - https://github.com/microsoft/PowerToys
 - https://docs.microsoft.com/windows/powertoys
@@ -41,7 +61,7 @@ Registries to disable Windows Focus:
 `HKEY_LOCAL_MACHINE/SOFTWARE/Policies/Microsoft/Windows/Explorer/DisableNotificationCenter:dword:1`
 
 
-## Ready
+### Linux Install
 
 `cp archlinux.iso /dev/sd`?(USB) on another linux pc
 
@@ -63,14 +83,7 @@ Boot Configuration > Enable other boot sequences, boot from USB Devices
 
 Hold SGO2 volume down, tap restart
 
-
-## Arch ISO
-
-
-### root@archiso
-
-
-#### Make SGO2 Arch bootable
+> Now's root@archiso, Make SGO2 arch bootable below
 
 `fdisk /dev/mmcblk0`
 
@@ -98,8 +111,7 @@ Select `ttf-bitstream-vera`
 
 ```efibootmgr -d /dev/mmcblk0 -p 1 -c -L arch -l /vmlinuz-linux-lts -u root=PARTUUID=`ls -l /dev/disk/by-partuuid|grep mmcblk0p2|cut -d' ' -f9`' rw initrd=\intel-ucode.img initrd=\initramfs-linux-lts.img'```
 
-
-#### Super user and web browser usable
+> Super user and web browser usable below
 
 `vim /mnt/etc/pam.d/su` uncomment `auth sufficient pam_wheel.so trust use_uid`
 
@@ -115,8 +127,7 @@ Select `ttf-bitstream-vera`
 
 `echo exec dwm>/mnt/etc/X11/xinit/xinitrc`
 
-
-#### Right ctrl and power save
+> Right ctrl and power save below
 
 `echo -e 'evdev:input:*\n KEYBOARD_KEY_70050=rightctrl\n KEYBOARD_KEY_700e3=left'>/mnt/etc/udev/hwdb.d/10-my-modifiers.hwdb`
 
@@ -132,8 +143,7 @@ Select `ttf-bitstream-vera`
 
 `echo -e 'options iwlwifi power_save=1\noptions snd_hda_intel power_save=1'>/mnt/etc/modprobe.d/power.conf`
 
-
-#### Other
+> Other below
 
 `vim /mnt/usr/share/X11/xorg.conf.d/40-libinput.conf` in `Section "InputClass"` add `Option "NaturalScrolling" "on"`, `Option "Tapping" "on"`
 
@@ -143,8 +153,7 @@ Select `ttf-bitstream-vera`
 
 `vim /mnt/etc/fonts/conf.d/60-latin.conf` in `<alias>` of `<family>` `monospace` prepend `<family>Bitstream Vera Sans Mono</family>`
 
-
-### root@a
+> Now's root@a
 
 `arch-chroot /mnt`
 
@@ -156,8 +165,7 @@ Select `ttf-bitstream-vera`
 
 `^D`
 
-
-### root@archiso again
+> Now's root@archiso again
 
 `echo unset HISTFILE>/mnt/home/z/.bashrc`
 
@@ -169,8 +177,7 @@ Select `ttf-bitstream-vera`
 
 Disconnect SGO2 and USB
 
-
-## SGO2 Arch
+> SGO2 Arch below
 
 Alt Shift Enter
 
