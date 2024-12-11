@@ -9,7 +9,7 @@ Install Termux, Termux:X11, then in Termux
 Then touch a file like this:
 ```
 # /data/data/com.termux/files/home/.profile
-pulseaudio --exit-idle-time=-1 --load='module-native-protocol-tcp auth-anonymous=1 auth-ip-acl=127.0.01' --start
+pulseaudio --exit-idle-time=-1 --load='module-native-protocol-tcp auth-anonymous=1 auth-ip-acl=127.0.0.1' --start
 termux-x11 -xstartup dwm
 ```
 If you wanna hide the Termux:X11 app, add `am start com.termux.x11/com.termux.x11.MainActivity` before the line of `termux-x11 ...` to goto the app automatically.
