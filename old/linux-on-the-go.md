@@ -2,19 +2,33 @@
 
 Install Termux, Termux:X11, then in Termux
 
-`pkg in --no-install-recommends --no-install-suggests x11-repo termux-x11-nightly`
+`pkg up`
 
-`curl -L github.com/aquajerry/dwm/archive/my.zip -odwm.zip;unzip dwm.zip;cd dwm-my;make;mv dwm /data/data/com.termux/files/usr/bin`(require cc make unzip; if error, try `pkg in xorgproto`); dmenu required; firefox, vim suggested
+`pkg i --no-install-recommends --no-install-suggests x11-repo`
 
-Then touch a file like this:
+`pkg i --no-install-recommends --no-install-suggests termux-x11-nightly`
+
+`curl -L github.com/aquajerry/dwm/archive/my.zip -odwm.zip;unzip dwm.zip;cd dwm-my;make;mv dwm /data/data/com.termux/files/usr/bin`(require cc make unzip; if error, try `pkg i xorgproto`); dmenu required; firefox, vim suggested
+
+Then touch a file as startup script of Termux like this:
 ```
-# /data/data/com.termux/files/home/.profile
 pulseaudio --exit-idle-time=-1 --load='module-native-protocol-tcp auth-anonymous=1 auth-ip-acl=127.0.0.1' --start
 termux-x11 -xstartup dwm
 ```
 If you wanna hide the Termux:X11 app, add `am start com.termux.x11/com.termux.x11.MainActivity` before the line of `termux-x11 ...` to goto the app automatically.
 
 If you can't hear any sound on some Samsung device, add `LD_PRELOAD=/system/lib64/libskcodec.so` before the line of `pulseaudio ...` to fix some bug on One UI 6.
+
+If you don't want `.viminfo`, use `se vi=` in /data/data/com.termux/files/usr/share/vim/vimrc.
+
+If you use tmux on st, try add
+```
+bind C-a send-prefix
+set -g prefix C-a
+set -g status off
+unbind C-b
+```
+into /data/data/com.termux/files/usr/etc/tmux.conf.
 
 __NOTICE: If above meets your need, ignore the other part of this article.__
 
