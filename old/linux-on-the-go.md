@@ -15,8 +15,6 @@ Then touch a file as startup script of Termux like this:
 pulseaudio --exit-idle-time=-1 --load='module-native-protocol-tcp auth-anonymous=1 auth-ip-acl=127.0.0.1' --start
 termux-x11 -xstartup dwm
 ```
-If you wanna hide the Termux:X11 app, add `am start com.termux.x11/com.termux.x11.MainActivity` before the line of `termux-x11 ...` to goto the app automatically.
-
 If you can't hear any sound on some Samsung device, add `LD_PRELOAD=/system/lib64/libskcodec.so` before the line of `pulseaudio ...` to fix some bug on One UI 6.
 
 If you don't want `.viminfo`, use `se vi=` in /data/data/com.termux/files/usr/share/vim/vimrc.
