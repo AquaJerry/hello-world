@@ -28,6 +28,8 @@ unbind C-b
 ```
 into /data/data/com.termux/files/usr/etc/tmux.conf.
 
+If you wanna use native Files app, try `adb shell am start com.google.android.documentsui/com.android.documentsui.files.FilesActivity`.
+
 __NOTICE: If above meets your need, ignore the other part of this article.__
 
 
