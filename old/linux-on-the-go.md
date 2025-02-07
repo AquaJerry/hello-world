@@ -17,6 +17,8 @@ termux-x11 -xstartup dwm
 ```
 If you can't hear any sound on some Samsung device, add `LD_PRELOAD=/system/lib64/libskcodec.so` before the line of `pulseaudio ...` to fix some bug on One UI 6.
 
+If you don't want `.lesshst`, add `export LESSHISTFILE=-` after `export HISTCONTROL=ignoreboth` in `/data/data/com.termux/files/usr/etc/bash.bashrc`.
+
 If you don't want `.viminfo`, use `se vi=` in /data/data/com.termux/files/usr/share/vim/vimrc.
 
 If you use tmux on st, try add
