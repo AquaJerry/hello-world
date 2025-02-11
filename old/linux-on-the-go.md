@@ -14,6 +14,8 @@ Then touch a file as startup script of Termux like this:
 ```
 pulseaudio --exit-idle-time=-1 --load='module-native-protocol-tcp auth-anonymous=1 auth-ip-acl=127.0.0.1' --start
 termux-x11 -xstartup dwm
+
+If you meet Samsung Keyboard bugs, try other keyboard and `adb shell pm disable-user com.samsung.android.honeyboard`.
 ```
 If you can't hear any sound on some Samsung device, add `LD_PRELOAD=/system/lib64/libskcodec.so` before the line of `pulseaudio ...` to fix some bug on One UI 6.
 
