@@ -26,6 +26,7 @@ If you don't want `.viminfo`, use `se vi=` in /data/data/com.termux/files/usr/sh
 If you use tmux on st, try add
 ```
 bind C-a send-prefix
+set -g mode-keys vi
 set -g prefix C-a
 set -g status off
 unbind C-b
