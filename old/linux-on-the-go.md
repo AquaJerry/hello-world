@@ -27,6 +27,15 @@ gtk-application-prefer-dark-theme=1
 
 `curl -L github.com/aquajerry/dwm/archive/my.zip -odwm.zip;unzip dwm.zip;cd dwm-my;make;mv dwm /data/data/com.termux/files/usr/bin`(require cc make unzip; if error, try `pkg i xorgproto`); dmenu required
 
+If you use tmux on st, try add as below into /data/data/com.termux/files/usr/etc/tmux.conf.
+```
+bind C-a send-prefix
+set -g mode-keys vi
+set -g prefix C-a
+set -g status off
+unbind C-b
+```
+
 > Then touch a file as startup script of Termux like `termux-x11 -xstartup ` `dwm`|`xfce4-session`.
 
 
@@ -40,15 +49,6 @@ If you meet Samsung Keyboard bugs, try other keyboard and `adb shell pm disable-
 If you don't want `.lesshst`, add `export LESSHISTFILE=-` after `export HISTCONTROL=ignoreboth` in `/data/data/com.termux/files/usr/etc/bash.bashrc`.
 
 Firefox, vim suggested. If you don't want `.viminfo`, use `se vi=` in /data/data/com.termux/files/usr/share/vim/vimrc.
-
-If you use tmux on st, try add as below into /data/data/com.termux/files/usr/etc/tmux.conf.
-```
-bind C-a send-prefix
-set -g mode-keys vi
-set -g prefix C-a
-set -g status off
-unbind C-b
-```
 
 If you wanna use native Files app, try `adb shell am start com.google.android.documentsui/com.android.documentsui.files.FilesActivity`.
 
