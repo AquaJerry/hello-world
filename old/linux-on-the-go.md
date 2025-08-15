@@ -8,11 +8,29 @@ Install Termux, Termux:X11, then in Termux
 
 `pkg i --no-install-recommends --no-install-suggests termux-x11-nightly`
 
-`curl -L github.com/aquajerry/dwm/archive/my.zip -odwm.zip;unzip dwm.zip;cd dwm-my;make;mv dwm /data/data/com.termux/files/usr/bin`(require cc make unzip; if error, try `pkg i xorgproto`); dmenu required; firefox, vim suggested
+If you prefer mouse|touchpad to keyboard, e.g. phone, try xfce desktop enviroment, dwm window manager else, e.g. phone + keyboard.
 
-Then touch a file as startup script of Termux like `termux-x11 -xstartup dwm`.
 
-If you can't hear any sound on some Samsung One UI 6 device, add as follow before `termux-x11 ...`. One UI 7 don't need these.
+> xfce
+
+`pkg i --no-install-recommends --no-install-suggests xfce`
+
+If you wanna save screen space, e.g. phone builtin display, `install -D /dev/null /data/data/com.termux/files/usr/share/themes/a/xfwm4/themerc`, then in `Settings`>`Window Manager`, select theme `a`.
+
+If you want dark mode, e.g. OLED display, echo as below as /data/data/com.termux/files/usr/etc/gtk-3.0/settings.ini.
+```
+[Settings]
+gtk-application-prefer-dark-theme=1
+```
+
+> dwm
+
+`curl -L github.com/aquajerry/dwm/archive/my.zip -odwm.zip;unzip dwm.zip;cd dwm-my;make;mv dwm /data/data/com.termux/files/usr/bin`(require cc make unzip; if error, try `pkg i xorgproto`); dmenu required
+
+> Then touch a file as startup script of Termux like `termux-x11 -xstartup ` `dwm`|`xfce4-session`.
+
+
+If you can't hear any sound on some Samsung One UI 6 device, add as below before `termux-x11 ...`. One UI 7 don't need these.
 
 `LD_PRELOAD=/system/lib64/libskcodec.so pulseaudio --exit-idle-time=-1 --load='module-native-protocol-tcp auth-anonymous=1 auth-ip-acl=127.0.0.1' --start`
 
@@ -21,9 +39,9 @@ If you meet Samsung Keyboard bugs, try other keyboard and `adb shell pm disable-
 
 If you don't want `.lesshst`, add `export LESSHISTFILE=-` after `export HISTCONTROL=ignoreboth` in `/data/data/com.termux/files/usr/etc/bash.bashrc`.
 
-If you don't want `.viminfo`, use `se vi=` in /data/data/com.termux/files/usr/share/vim/vimrc.
+Firefox, vim suggested. If you don't want `.viminfo`, use `se vi=` in /data/data/com.termux/files/usr/share/vim/vimrc.
 
-If you use tmux on st, try add
+If you use tmux on st, try add as below into /data/data/com.termux/files/usr/etc/tmux.conf.
 ```
 bind C-a send-prefix
 set -g mode-keys vi
@@ -31,7 +49,6 @@ set -g prefix C-a
 set -g status off
 unbind C-b
 ```
-into /data/data/com.termux/files/usr/etc/tmux.conf.
 
 If you wanna use native Files app, try `adb shell am start com.google.android.documentsui/com.android.documentsui.files.FilesActivity`.
 
