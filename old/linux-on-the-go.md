@@ -10,14 +10,14 @@ Install Termux, Termux:X11, then in Termux
 
 `curl -L github.com/aquajerry/dwm/archive/my.zip -odwm.zip;unzip dwm.zip;cd dwm-my;make;mv dwm /data/data/com.termux/files/usr/bin`(require cc make unzip; if error, try `pkg i xorgproto`); dmenu required; firefox, vim suggested
 
-Then touch a file as startup script of Termux like this:
-```
-pulseaudio --exit-idle-time=-1 --load='module-native-protocol-tcp auth-anonymous=1 auth-ip-acl=127.0.0.1' --start
-termux-x11 -xstartup dwm
+Then touch a file as startup script of Termux like `termux-x11 -xstartup dwm`.
+
+If you can't hear any sound on some Samsung One UI 6 device, add as follow before `termux-x11 ...`. One UI 7 don't need these.
+
+`LD_PRELOAD=/system/lib64/libskcodec.so pulseaudio --exit-idle-time=-1 --load='module-native-protocol-tcp auth-anonymous=1 auth-ip-acl=127.0.0.1' --start`
+
 
 If you meet Samsung Keyboard bugs, try other keyboard and `adb shell pm disable-user com.samsung.android.honeyboard`.
-```
-If you can't hear any sound on some Samsung device, add `LD_PRELOAD=/system/lib64/libskcodec.so `(space) before `pulseaudio ...` to fix some bug on One UI 6.
 
 If you don't want `.lesshst`, add `export LESSHISTFILE=-` after `export HISTCONTROL=ignoreboth` in `/data/data/com.termux/files/usr/etc/bash.bashrc`.
 
