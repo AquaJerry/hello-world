@@ -8,24 +8,13 @@ Install Termux, Termux:X11, then in Termux
 
 `pkg i --no-install-recommends --no-install-suggests termux-x11-nightly`
 
-If you prefer mouse|touchpad to keyboard, e.g. phone, try xfce desktop enviroment, dwm window manager else, e.g. phone + keyboard.
-
-
-> xfce
-
-`pkg i --no-install-recommends --no-install-suggests xfce`
-
-If you wanna save screen space, e.g. phone builtin display, `install -D /dev/null /data/data/com.termux/files/usr/share/themes/a/xfwm4/themerc`, then in `Settings`>`Window Manager`, select theme `a`.
+`curl -L github.com/aquajerry/dwm/archive/my.zip -odwm.zip;unzip dwm.zip;cd dwm-my;make install`(require cc make; if error, try `pkg i xorgproto`); dmenu required
 
 If you want dark mode, e.g. OLED display, echo as below as /data/data/com.termux/files/usr/etc/gtk-3.0/settings.ini.
 ```
 [Settings]
 gtk-application-prefer-dark-theme=1
 ```
-
-> dwm
-
-`curl -L github.com/aquajerry/dwm/archive/my.zip -odwm.zip;unzip dwm.zip;cd dwm-my;make;mv dwm /data/data/com.termux/files/usr/bin`(require cc make unzip; if error, try `pkg i xorgproto`); dmenu required
 
 If you use tmux on st, try add as below into /data/data/com.termux/files/usr/etc/tmux.conf.
 ```
@@ -36,7 +25,7 @@ set -g status off
 unbind C-b
 ```
 
-> Then touch a file as startup script of Termux like `termux-x11 -xstartup ` `dwm`|`xfce4-session`.
+Then touch a file as startup script of Termux like `termux-x11 -xstartup dwm`.
 
 
 If you can't hear any sound on some Samsung One UI 6 device, add as below before `termux-x11 ...`. One UI 7 don't need these.
