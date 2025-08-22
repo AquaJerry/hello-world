@@ -14,16 +14,16 @@ Install Termux, Termux:X11, then in Termux
 
 `pkg un --auto-remove clang make pkg-config xorgproto`
 
+Then touch a file as startup script of Termux like `exec termux-x11 -xstartup dwm`.
+
+
 If you want dark mode, e.g. OLED display, echo as below as /data/data/com.termux/files/usr/etc/gtk-3.0/settings.ini.
 ```
 [Settings]
 gtk-application-prefer-dark-theme=1
 ```
 
-Then touch a file as startup script of Termux like `termux-x11 -xstartup dwm`.
-
-
-If you can't hear any sound on some Samsung One UI 6 device, add as below before `termux-x11 ...`. One UI 7 don't need these.
+If you can't hear any sound on some Samsung One UI 6 device, add as below before `exec termux-x11 ...`. One UI 7 don't need these.
 
 `LD_PRELOAD=/system/lib64/libskcodec.so pulseaudio --exit-idle-time=-1 --load='module-native-protocol-tcp auth-anonymous=1 auth-ip-acl=127.0.0.1' --start`
 
