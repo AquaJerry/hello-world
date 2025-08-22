@@ -17,6 +17,8 @@ Install Termux, Termux:X11, then in Termux
 Then touch a file as startup script of Termux like `exec termux-x11 -xstartup dwm`.
 
 
+If you need cron, `pkg i --no-install-recommends --no-install-suggests cronie`, `crond;termux-wake-lock` before `exec termux-x11 ...`
+
 If you want dark mode, e.g. OLED display, echo as below as /data/data/com.termux/files/usr/etc/gtk-3.0/settings.ini.
 ```
 [Settings]
