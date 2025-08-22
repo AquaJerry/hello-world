@@ -42,6 +42,8 @@ Firefox, vim suggested. If you don't want `.viminfo`, use `se vi=` in /data/data
 
 If you wanna use native Files app, try `adb shell am start com.google.android.documentsui/com.android.documentsui.files.FilesActivity`.
 
+If you wanna access android files more directly, `echo 'file:///sdcard'>/data/data/com.termux/files/home/.config/gtk-3.0/bookmarks`
+
 __NOTICE: If above meets your need, ignore the other part of this article.__
 
 
