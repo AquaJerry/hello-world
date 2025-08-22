@@ -2,27 +2,22 @@
 
 Install Termux, Termux:X11, then in Termux
 
-`pkg up`
+`pkg up --no-install-recommends --no-install-suggests`
 
 `pkg i --no-install-recommends --no-install-suggests x11-repo`
 
 `pkg i --no-install-recommends --no-install-suggests termux-x11-nightly`
 
-`curl -L github.com/aquajerry/dwm/archive/my.zip -odwm.zip;unzip dwm.zip;cd dwm-my;make install`(require cc make; if error, try `pkg i xorgproto`); dmenu required
+`pkg i --no-install-recommends --no-install-suggests clang make pkg-config xorgproto`
+
+`for a in dmenu dwm st;do curl -L gitee.com/aquajerry/$a/archive/$a.zip -o$a.zip;unzip $a.zip;cd $a-my;make install;cd ..;rm -rf $a-my $a.zip;done`
+
+`pkg un --auto-remove clang make pkg-config xorgproto`
 
 If you want dark mode, e.g. OLED display, echo as below as /data/data/com.termux/files/usr/etc/gtk-3.0/settings.ini.
 ```
 [Settings]
 gtk-application-prefer-dark-theme=1
-```
-
-If you use tmux on st, try add as below into /data/data/com.termux/files/usr/etc/tmux.conf.
-```
-bind C-a send-prefix
-set -g mode-keys vi
-set -g prefix C-a
-set -g status off
-unbind C-b
 ```
 
 Then touch a file as startup script of Termux like `termux-x11 -xstartup dwm`.
