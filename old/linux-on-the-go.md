@@ -19,11 +19,15 @@ Then touch a file as startup script of Termux like `exec termux-x11 -xstartup dw
 
 If you need cron, `pkg i --no-install-recommends --no-install-suggests cronie`, `crond;termux-wake-lock` before `exec termux-x11 ...`
 
-If you want dark mode, e.g. OLED display, echo as below as /data/data/com.termux/files/usr/etc/gtk-3.0/settings.ini.
-```
-[Settings]
-gtk-application-prefer-dark-theme=1
-```
+
+> Do below in /data/data/com.termux/files/usr/etc/gtk-3.0/settings.ini [Settings]:
+
+If you want dark mode, e.g. OLED display, add `gtk-application-prefer-dark-theme=1`
+
+If you prefer privacy to convenience, add `gtk-recent-files-enabled=0`
+
+> Done
+
 
 If you can't hear any sound on some Samsung One UI 6 device, add as below before `exec termux-x11 ...`. One UI 7 don't need these.
 
