@@ -40,6 +40,8 @@ If you don't want `.lesshst`, add `export LESSHISTFILE=-` after `export HISTCONT
 
 Firefox, vim suggested. If you don't want `.viminfo`, use `se vi=` in /data/data/com.termux/files/usr/share/vim/vimrc.
 
+Backup is a good habit. Use `rsync -av --del /sdcard/D/ USER@HOST:/sdcard/D/` to create/update the mirror of directory D. Replace the latter `sdcard` with `mnt/c` if HOST is Windows Subsystem for Linux (WSL).
+
 If you wanna use native Files app, try `adb shell am start com.google.android.documentsui/com.android.documentsui.files.FilesActivity`.
 
 If you wanna access android files more directly, `echo 'file:///sdcard'>/data/data/com.termux/files/home/.config/gtk-3.0/bookmarks`
