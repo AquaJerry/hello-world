@@ -114,6 +114,7 @@ Kaca,上海,咔咖
 Kaku,宁波,卡酷
 Kamiiru,杭州,神在
 Kun,北京,堃
+KungFu,泉州,功夫
 Kungfufrog,成都,元气蛙
 L2Studio,成都,艾尔平方
 LAN,深圳,澜映画
