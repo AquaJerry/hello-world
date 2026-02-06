@@ -87,6 +87,7 @@ Gudong,杭州,咕咚
 HMCH,天津,寒木春华
 HMHeros,上海,幻马
 Haoliners,上海,绘梦
+HappyToon,广州,明星
 HeartSoul,海口,心魂
 Heaven,苏州,天堂
 Hezhou,苏州,核舟
