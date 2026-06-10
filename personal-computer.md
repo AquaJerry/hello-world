@@ -1,4 +1,4 @@
-# Linux on the Go
+# PC (Personal Computer)
 
 Install Termux, Termux:X11, then in Termux
 
