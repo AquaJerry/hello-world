@@ -1,5 +1,9 @@
 # PC (Personal Computer)
 
+> __Notice: this article will be deleted__
+>
+> Built-in native linux Terminal is available since Android 15. Please use it.
+
 Install Termux, Termux:X11, then in Termux
 
 `pkg up --no-install-recommends --no-install-suggests`
