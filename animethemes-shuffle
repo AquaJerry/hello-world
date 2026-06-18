@@ -1,0 +1,27 @@
+#!/bin/python3
+import http.server,os,re,sqlite3
+def d(r):
+    if p:=r.path[1:]:
+        global i
+        s,q,y=next(c.execute(
+            'SELECT GROUP_CONCAT(DISTINCT studios.name),MIN(year<<2|season)&3,MIN(year<<2|season)>>2 FROM videos '
+            'JOIN anime_theme_entry_video USING(video_id)'
+            'JOIN anime_theme_entries USING(entry_id)'
+            'JOIN anime_themes USING(theme_id)'
+            'JOIN anime USING(anime_id)'
+            'JOIN anime_studio USING(anime_id)'
+            'JOIN studios USING(studio_id)'
+            'WHERE audio_id=?',(a[i:=(i+(1,-1)['0'<p])%len(a)],)))
+        os.system('spd-say -w '+repr(f"{s}{None==q or('Winter','Spring','Summer','Fall')[q]}{y}"))
+        with open(*next(c.execute('SELECT path FROM audios WHERE audio_id=?',(a[i],))),'br')as f:r.wfile.write(b'HTTP/1.0\n\n'+f.read())
+    else:r.wfile.write(
+            b'HTTP/1.0\n\n<script>a=new Audio;a.autoplay=1;(a.onended=_=>a.src=0)();onclick=_=>a.play()'
+            b";navigator.mediaSession.setActionHandler('nexttrack',_=>a.src=0)"
+            b";navigator.mediaSession.setActionHandler('previoustrack',_=>a.src=1)</script>")
+os.chdir('/mnt/shared/animethemes-audios/')
+with sqlite3.connect(os.listdir()[-1])as _:i,a=0,sorted((i for i,in _.execute('SELECT id FROM audios')),key=lambda _:os.urandom(1))
+with sqlite3.connect('')as c,http.server.HTTPServer(('',1028),type('',(http.server.BaseHTTPRequestHandler,),dict(do_GET=d)))as h:
+    with open((_:='/mnt/shared/animethemes-db-dumps/')+os.listdir(_)[-1])as f:
+        for t,_,k,v in re.findall(r'(CREATE TABLE( `\w+` ))(.+?)((?:INSERT INTO\2VALUES[^\n]+\n)+)',f.read(),re.S):
+            c.executescript(t+'('+','.join(re.findall(r'\n\s*(`\w+`)',k))+');'+v.replace(r"\'","''"))
+    h.serve_forever()
