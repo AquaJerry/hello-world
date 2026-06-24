@@ -18,7 +18,7 @@ def d(r):
             b'HTTP/1.0\n\n<script>a=new Audio;a.autoplay=1;(a.onended=_=>a.src=0)();onclick=_=>a.play()'
             b";navigator.mediaSession.setActionHandler('nexttrack',_=>a.src=0)"
             b";navigator.mediaSession.setActionHandler('previoustrack',_=>a.src=1)</script>")
-os.chdir('/mnt/shared/animethemes-audios/')
+os.chdir('/mnt/shared/animethemes-audios')
 for _ in os.listdir():
     try:
         datetime.datetime.strptime(_,'%Y%m%d%H%M%S%f')
