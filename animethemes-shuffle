@@ -1,5 +1,5 @@
 #!/bin/python3
-import http.server,os,re,sqlite3
+import datetime,http.server,os,re,sqlite3
 def d(r):
     if p:=r.path[1:]:
         global i
@@ -19,7 +19,12 @@ def d(r):
             b";navigator.mediaSession.setActionHandler('nexttrack',_=>a.src=0)"
             b";navigator.mediaSession.setActionHandler('previoustrack',_=>a.src=1)</script>")
 os.chdir('/mnt/shared/animethemes-audios/')
-with sqlite3.connect(os.listdir()[-1])as _:i,a=0,sorted((i for i,in _.execute('SELECT id FROM audios')),key=lambda _:os.urandom(1))
+for _ in os.listdir():
+    try:
+        datetime.datetime.strptime(_,'%Y%m%d%H%M%S%f')
+        break
+    except:0
+with sqlite3.connect(_)as _:i,a=0,sorted((i for i,in _.execute('SELECT id FROM audios')),key=lambda _:os.urandom(1))
 with sqlite3.connect('')as c,http.server.HTTPServer(('',1028),type('',(http.server.BaseHTTPRequestHandler,),dict(do_GET=d)))as h:
     with open((_:='/mnt/shared/animethemes-db-dumps/')+os.listdir(_)[-1])as f:
         for t,_,k,v in re.findall(r'(CREATE TABLE( `\w+` ))(.+?)((?:INSERT INTO\2VALUES[^\n]+\n)+)',f.read(),re.S):
